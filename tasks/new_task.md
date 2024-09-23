@@ -44,10 +44,10 @@ In the `docs/README.md` file, complete this table with the result each boolean e
 
 | Boolean expression            | Value   |
 | ----------------------------- | ------- |
-| `5 > 3 && 8 < 10`             |         |
-| `7 == 5 || 3 != 3`            |         |
-| `!(6 < 7)`                    |         |
-| `(3 >= 3) && (false || true)` |         |
+| `5 > 3 && 8 < 10`             |  true   |
+| `7 == 5 || 3 != 3`            |  false  |
+| `!(6 < 7)`                    |  false  |
+| `(3 >= 3) && (false || true)` |  true   |
 
 Use [JShell](https://docs.oracle.com/en/java/javase/17/docs/specs/jshell/) to explore these expressions interactively.
 
